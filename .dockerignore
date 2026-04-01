@@ -1,0 +1,27 @@
+# Git
+.git
+.gitignore
+
+# Build outputs (Windows-specific caches)
+bin/
+obj/
+
+# IDE
+.vs
+.vscode
+*.user
+*.suo
+*.sln.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation and logs
+*.md
+developer-log.md
+
+# Docker
+docker-compose.yml
+Dockerfile
+.dockerignore

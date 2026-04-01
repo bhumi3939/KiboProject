@@ -1,0 +1,44 @@
+## .NET / C# ##
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+[Rr]elease/
+[Dd]ebug/
+*.nupkg
+*.snupkg
+*.nuspec
+
+## Test results ##
+TestResults/
+*.trx
+*.coverage
+coverage-report/
+
+## Secrets / env ##
+appsettings.local.json
+appsettings.secrets.json
+.env
+.env.*
+!.env.example
+secrets.json
+
+## Docker volumes ##
+mongo_data/
+rabbitmq_data/
+
+## IDE ##
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+## Logs ##
+*.log
+
+## NuGet ##
+packages/
+.nuget/
